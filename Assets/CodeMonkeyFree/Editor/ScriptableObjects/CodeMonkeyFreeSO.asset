@@ -14,39 +14,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1766900981
+  lastShownTimestamp: 1773300135
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1766900981
+  checkedLastUpdateTimestamp: 1773300135
   lastQOTDResponse:
-    questionId: 256
-    questionText: The Profiler is useful for...
-    answerA: Balancing difficulty
-    answerB: Level Design
-    answerC: Indentifying performance bottlenecks
+    questionId: 280
+    questionText: 'When would this code cause an error?
+
+      <p>Building closest
+      = null;</p>
+
+      <p>for (int i = 0; i &lt; instanceList.Count; i++) {</p>
+
+      <p>&nbsp;
+      &nbsp; if (Vector3.Distance(position, instanceList[i].GetPosition()) &lt; Vector3.Distance(position,
+      closest.GetPosition())) {</p>
+
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; closest
+      = instanceList[i];</p>
+
+      <p>&nbsp; &nbsp; }</p>
+
+      <p>}</p>
+
+      <p>return
+      closest;</p>'
+    answerA: When instanceList is empty
+    answerB: When instanceList has at least one element
+    answerC: When instanceList has exactly two elements
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1766900981
+  lastQotdTimestamp: 1773300135
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/problemSolvingCourse_BonusesEndingMonth.png
-    topText: The Special Bonuses on my Problem Solving course are ending this month!
-    topLink: problemsolvingcourse
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleMar26Audio.png
+    topText: Awesome HumbleBundle with thousands of SFX and Music, 99% OFF!
+    topLink: humblebundle
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1766900981
+  lastDynamicHeaderTimestamp: 1773300135
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1766900981
+  websiteLatestMessageTimestamp: 1773300135
   websiteLatestVideos:
     videos:
-    - youTubeId: rtwwNG7Jwwc
-      title: Get Ready for 2026 with FREE Technical Unity ebooks and samples!
-    - youTubeId: Q7NFzES5GMU
-      title: How to Convert Input Manager to Input System (Unity 6.3 LTS)
-    - youTubeId: zk3vMm0dJ_M
-      title: Useless IMPORTANT Game Features (for some players)
-    - youTubeId: f_zWWVFKwho
-      title: TOP 10 NEW Systems and Tools DECEMBER 2025! | Unity Asset Store
-  websiteLatestVideosTimestamp: 1766900981
+    - youTubeId: nwW5UB_gBi8
+      title: How to make a living from Indie Dev WITHOUT a Hit!
+    - youTubeId: _QrcgWsr2PI
+      title: What is the FUTURE of Unity in 2026?
+    - youTubeId: PZnS3TwucQg
+      title: The Biggest Indie MISTAKE! (and 7 other tips)
+    - youTubeId: uNNz1kOsLVw
+      title: Steam's 30% Cut Isn't Even the Biggest Problem!
+  websiteLatestVideosTimestamp: 1773300135
